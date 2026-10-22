@@ -31,16 +31,5 @@ README này mô tả cấu trúc thư mục và quy ước đặt file của d�
 
 Khi thêm tính năng, hãy giữ phần giao tiếp, nghiệp vụ, dữ liệu và giao diện tách biệt; tái sử dụng mã có sẵn thay vì sao chép. Nếu một thư mục phát triển thành nhiều phần, có thể tạo thư mục con theo tính năng, ví dụ `api/orders/` hoặc `services/payments/`.
 
-## Tạo các thư mục trên Windows
-
-Trong PowerShell, chạy từ thư mục gốc của dự án:
-
-```powershell
-New-Item -ItemType Directory -Force -Path api, asset, controls, database, docs, forms, includes, models, n8n, properties, scripts, services, utilities
-```
-
-Git không lưu thư mục rỗng. Để một thư mục mới xuất hiện trong repository, hãy thêm file thực tế vào đó (hoặc file `.gitkeep` nếu cần giữ chỗ).
-
 ## Lệnh chạy dự án
 
-Chưa có mã nguồn, tệp cấu hình phụ thuộc hoặc lệnh khởi chạy được xác định trong bộ khung hiện tại. Hãy bổ sung hướng dẫn cài đặt, cấu hình môi trường và chạy ứng dụng tại đây khi lựa chọn công nghệ và thêm các tệp cần thiết.
