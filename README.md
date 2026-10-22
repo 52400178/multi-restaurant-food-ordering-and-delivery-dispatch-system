@@ -1,6 +1,6 @@
-# Multi-Restaurant Food Delivery
+# Multi-Restaurant Food Ordering & Delivery Dispatch System
 
-README này mô tả cấu trúc thư mục và quy ước đặt file của dự án. Các thư mục hiện tại là bộ khung để tổ chức mã nguồn; hãy đặt file vào đúng nơi theo trách nhiệm thay vì gom mọi thứ vào một thư mục.
+README này mô tả cấu trúc thư mục và quy ước đặt file của dự án.
 
 ## Cấu trúc thư mục
 
